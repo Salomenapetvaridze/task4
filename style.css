@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  max-width: 1440px;
+  height: 200px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.main-logo {
+  width: 178px;
+  height: 100px;
+  left: 130px;
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  color: #717276;
+  position: absolute;
+  position: relative;
+  right: 130px;
+}
+
+.nav1 {
+  color: #a62b28;
+}
+
+.nav2 {
+  margin: 0px 38px;
+}
+
+.nav4 {
+  margin: 0px 38px;
+}
+
+.main-photo {
+  width: 1180px;
+  height: 287px;
+  margin: 160px 130px 160px 130px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+main div {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 40px;
+  margin-left: 130px;
+}
+
+main p {
+  width: 393px;
+  height: 51px;
+  margin: 24px 777px 65px 40px;
+  font-size: 32px;
+  color: #717276;
+}
+
+figure ul {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 0px 130px 0px 130px;
+}
+
+.middle {
+  margin: 0 20px;
+}
+figure .books {
+  display: flex;
+  align-items: start;
+}
+figure .book1 {
+  flex-direction: column;
+  align-items: start;
+  line-height: 8px;
+  margin-top: 50px;
+}
+
+figure .book2 {
+  flex-direction: column;
+  align-items: start;
+  line-height: 8px;
+  margin-top: 50px;
+}
+
+figure .book3 {
+  flex-direction: column;
+  align-items: start;
+  line-height: 8px;
+  margin-top: 50px;
+}
+
+.icon2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.icon2 img {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  margin: 160px 0px 40px 130px;
+}
+
+.icon2 p {
+  margin: 184px 0px 65px 0px;
+  font-size: 32px;
+  line-height: 51.48px;
+  color: #717276;
+}
+
+section ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  width: 280px;
+  height: 260px;
+}
+
+section .first {
+  margin: 40px 20px 160px 130.5px;
+}
+section .second {
+  margin: 40px 2px 160px;
+}
+
+section .third {
+  margin: 40px 2px 160px;
+}
+
+section .forth {
+  margin: 40px 129.5px 160px 0px;
+}
+
+footer {
+  max-width: 1440px;
+  height: 248px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+footer .search {
+  width: 109px;
+  height: 30px;
+  top: 71px;
+  margin: 70px 888px 71px 130px;
+  font-size: 24px;
+}
+
+footer .socialnetworks {
+  display: flex;
+  flex-direction: row;
+  margin: 231px 130px 147px 0px;
+}
